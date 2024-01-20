@@ -1,5 +1,40 @@
-hr{
-    width: 50px;
-    margin: 30px auto;
-    border: 1px solid black;
-  }
+body {
+  background-color: #FEBB41;
+  display: inline-flex;
+}
+button{
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.wrapper {
+  width: 1511px;
+  height: 886px;
+  border-radius: 24px;
+  background: linear-gradient(305deg, #F4ECE1 57.1%, #FCFBF7 145.5%);
+  margin-left: 100px;
+  margin-top: 100px;
+  display: block;
+  padding: 48px 87px;
+}
+img {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.logo_button{
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 139.8%; /* 44.736px */
+  cursor: pointer;
+}
+.ul_nav{
+  display: inline-block;
+}
+.li_nav{
+  display: block;
+  float: left;
+}
